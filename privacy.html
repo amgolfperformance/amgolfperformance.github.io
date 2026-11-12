@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — AMG Agenda</title>
+<meta name="description" content="What AMG Agenda does with your data, including data received from Google Calendar and Google Tasks.">
+<style>
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#1c1c1e;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:3.5rem 1.25rem 6rem}
+h1{font-size:2rem;letter-spacing:-.02em;line-height:1.2;margin:0 0 .5rem}
+h2{font-size:1.0625rem;margin:2.5rem 0 .5rem}
+p,ul{margin:.75rem 0}
+ul{padding-left:1.25rem}
+li{margin:.3rem 0}
+.updated{color:#6c6c70;font-size:.875rem;margin-bottom:2rem}
+a{color:#0a58ff;text-underline-offset:2px}
+footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid #e5e5ea;font-size:.875rem;color:#6c6c70}
+@media (prefers-color-scheme:dark){body{background:#0f0f10;color:#f2f2f7}a{color:#5ea0ff}footer{border-color:#2c2c2e;color:#8e8e93}.updated{color:#8e8e93}}
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy policy</h1>
+<p class="updated">Last updated: 12 November 2026</p>
+
+<p>AMG Agenda is a class scheduling app for golf coaching, built and operated by AMG Golf Performance in Spain. This page explains what the app does with your data, including data it receives from Google.</p>
+
+<h2>Data stored on your device</h2>
+<p>Your classes — student names, class type, dates, times and notes — are stored in your browser's local storage on the device you use. That data stays on the device unless you sync it to a calendar, push it to a spreadsheet, or export it.</p>
+
+<h2>Google data the app requests</h2>
+<p>When you connect a Google account, the app asks for three permissions:</p>
+<ul>
+  <li><strong>Google Calendar</strong> (<code>/auth/calendar</code>) — to list the calendars you own so you can choose one, to read events in that calendar, and to create, update and delete the events the app itself created.</li>
+  <li><strong>Google Tasks</strong> (<code>/auth/tasks</code>) — to list your task lists so you can choose one, and to create, update and delete the tasks the app itself created.</li>
+  <li><strong>Your email address</strong> (<code>/auth/userinfo.email</code>) — used only to show, inside the app, which Google account is connected.</li>
+</ul>
+<p>The app does not request access to Gmail, Google Drive, your contacts or Google Sheets, and it cannot see parts of your Google account beyond the three permissions above.</p>
+
+<h2>How the data is used</h2>
+<p>Only to show your classes in the app and to keep the calendar and task list you chose in sync with them. The data is not used for advertising, is not used to build profiles, is not sold, and is not used to train machine-learning models.</p>
+
+<h2>Where the data is stored</h2>
+<p>OAuth tokens are stored on the server that runs the app, in a file readable only by the account that runs the server. Tokens are never sent to the browser; every Google request is made server to server. Event and task details are held in memory while the app runs and in your device's local storage; the server keeps a small log of the event identifiers it created so it can detect deletions made in Google.</p>
+<p>If you use the spreadsheet feature, class rows are posted to a Google Apps Script web app deployed in the operator's own Google account, and written into a spreadsheet you choose. The app never asks for Google Sheets permission.</p>
+<p>The site pages you are reading contain no cookies, no analytics and no third-party scripts.</p>
+
+<h2>Sharing</h2>
+<p>Your data is not sold, rented or shared with third parties. It is sent only to Google's APIs, to the spreadsheet you choose, and to no one else. Google's own handling of your data is governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Keeping and deleting data</h2>
+<ul>
+  <li><strong>Disconnect in the app</strong> — pressing Disconnect deletes the stored Google tokens immediately.</li>
+  <li><strong>Revoke access</strong> — remove the app's access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. This works even if you no longer have the app.</li>
+  <li><strong>Delete local data</strong> — clear the site data for the app in your browser. This removes your classes from that device.</li>
+  <li><strong>Ask us</strong> — write to <a href="mailto:amgolfperformance@gmail.com">amgolfperformance@gmail.com</a> to ask what is held about you, or to have it deleted.</li>
+</ul>
+
+<h2>Security</h2>
+<p>Google tokens are stored with file permissions limited to the server's own account, and are never exposed in the browser. Traffic between the app and Google is encrypted in transit. No system is perfectly secure, so the app asks for the narrowest set of permissions that lets it work.</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>AMG Agenda's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Children</h2>
+<p>The app is not directed at children. Names of class participants are entered by the coach, who is responsible for having a lawful basis to store them.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the date at the top of the page changes with it. Material changes will be noted in the app.</p>
+
+<footer>
+<p><a href="index.html">AMG Agenda</a> · <a href="terms.html">Terms of service</a> · <a href="mailto:amgolfperformance@gmail.com">Contact</a></p>
+<p>AMG Agenda is not affiliated with, endorsed by or sponsored by Google or Apple.</p>
+</footer>
+</main>
+</body>
+</html>
